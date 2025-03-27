@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  washwise:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-27T10:59:01.476178188Z"
+    description: A Helm chart for Kubernetes
+    digest: 4e70a7be4c6c0eaca652121691d2e5f8cdcfdcc15d393d78a61c639745fbb6d5
+    name: washwise
+    type: application
+    urls:
+    - https://github.com/fluxcoding87/washwise-helm-charts/washwise-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-27T10:59:01.475421457Z"
