@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  washwise:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-03-28T07:10:06.035811291Z"
+    description: Laundry Management App- Washwise Helm Chart
+    digest: aefbcaa76c27c393194cdb39a1552215caeba95eb8effccb72f68040faba3113
+    name: washwise
+    type: application
+    urls:
+    - https://fluxcoding87.github.io/washwise-helm-charts/washwise-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-03-28T07:10:06.035695602Z"
+    description: Laundry Management App- Washwise Helm Chart
+    digest: bc6bddad26b459076c189a77aa0ebb3f55dd9195ca81ad7c59f2cc33e21d73b8
+    name: washwise
+    type: application
+    urls:
+    - https://fluxcoding87.github.io/washwise-helm-charts/washwise-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-28T07:10:06.035381732Z"
