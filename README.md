@@ -18,7 +18,7 @@
 10. Run the helm repo index command **Make sure you have you have hosted githubpages**
   > helm repo index . --url https://<your-username>.github.io/helm-charts
 11. Add push and commit into your repo
-```
+```bash
 git add .
 git commit -m "Add packaged Helm chart and index"
 git push origin main
@@ -28,7 +28,7 @@ git push origin main
 
 **Steps to add that repo to your env and install the helm chart**
 1. Add the repo 
-```
+```bash
 helm repo add washwise-helm-charts https://fluxcoding87.github.io/washwise-helm-charts/
 ```
 2. Update repos
@@ -36,12 +36,14 @@ helm repo add washwise-helm-charts https://fluxcoding87.github.io/washwise-helm-
    helm repo update
    ```
 3. Search the repo for a specific appversion and chart version
-   ```
-   helm search repo <repository_name>/<chart_name> --versions
+   >helm search repo <repository_name>/<chart_name> --versions
+   
+   ```bash
+   helm search repo washwise-helm-charts/washwise --versions
    ```
 4. I want to install a chart release using chart version 0.1.0 do this by
-   ```
-   helm install washwise-release washwise-helm-charts/washwise --version 0.1.0
+   ```bash
+   helm install washwise-release washwise-helm-charts/washwise --version 0.2.0
    ```
 ### More Documentation Coming on the way ;)
    
