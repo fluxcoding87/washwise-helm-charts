@@ -41,7 +41,7 @@ helm repo add washwise-helm-charts https://fluxcoding87.github.io/washwise-helm-
    ```bash
    helm search repo washwise-helm-charts/washwise --versions
    ```
-4. I want to install a chart release using chart version 0.1.0 do this by
+4. I want to install a chart release using chart version 0.2.0 do this by
    ```bash
    helm install washwise-release washwise-helm-charts/washwise --version 0.2.0
    ```
